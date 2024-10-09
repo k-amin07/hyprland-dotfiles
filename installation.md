@@ -28,3 +28,20 @@ If using nvidia install also
 ```
 paru -S --needed - < nvidia_deps.txt
 ```
+
+For desktop overview effect, run the following
+```
+hyprpm add https://github.com/hyprwm/hyprland-plugins.git
+```
+
+Then run
+```
+hyprpm update
+hyprpm enable hyprexpo
+```
+
+To see other available plugins, run
+
+```
+hyprpm list
+```
