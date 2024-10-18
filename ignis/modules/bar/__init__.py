@@ -9,7 +9,7 @@ from .battery import battery_widget
 
 def bar(monitor: int) -> Widget.Window:
     return Widget.Window(
-        anchor=["left", "top", "right"],
+        anchor=["left", "bottom", "right"],
         exclusivity="exclusive",
         monitor=monitor,
         namespace=f"ignis_BAR_{monitor}",
