@@ -31,16 +31,16 @@ paru -S --needed - < nvidia_deps.txt
 
 For desktop overview effect, run the following
 ```
-hyprpm add https://github.com/hyprwm/hyprland-plugins.git
+hyprpm add https://github.com/KZDKM/Hyprspace
 ```
 
 Then run
 ```
 hyprpm update
-hyprpm enable hyprexpo
+hyprpm enable Hyprspace
 ```
 
-To see other available plugins, run
+To see installed plugins, run
 
 ```
 hyprpm list
